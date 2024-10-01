@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    margin-right: 40px;
+    
+}
+
+.navbar a {
+    color: rgb(203, 66, 66);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.navbar a i {
+    display: block;
+    font-size: 24px;
+}
+
+.navbar a span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+div {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    padding-right: 50px;
+    margin-right: 40px;
+}
